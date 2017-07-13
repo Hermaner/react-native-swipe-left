@@ -239,7 +239,7 @@ export default class Swipes extends Component {
 
     closeRow() {
         let root = this.props.root;
-        if(root.openRowId && root._dataRow[root.openRowId]) {
+        if(root.openRowId) {
             root._dataRow[root.openRowId]._closeRow();
         }
     }

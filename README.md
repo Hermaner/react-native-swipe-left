@@ -12,16 +12,16 @@ IOS | Android
 
 ### Features （特性）
 RESOLVE | 解决
------------------ | ----- 
+----------------- | -----
 the Opposite effect between two rows |（row之间的互斥收回）
-button configurable（one or more, text/image, bgcolor, width,callback etc）|左边按钮的可配置化（可配置多按钮，文字/图片，背景色，宽度，回调) 
+button configurable（one or more, text/image, bgcolor, width,callback etc）|左边按钮的可配置化（可配置多按钮，文字/图片，背景色，宽度，回调)
 pressable in single row |单个row内的按钮或链接可点击
 optional animation type, timing/spring |可选择滚动动画类型，timing/spring
 
 
 ### Installation
 ```
-npm install --save react-native-swipe-left
+npm install --save react-native-swipe-left-hm
 ```
 
 ### Usage example
@@ -64,8 +64,8 @@ let rightBtn = [{
 
 
 // 4, in your renderRow function(a is sectionId, b is rowId)
-let id = '' + a + b; 
-<SwipeitemView 
+let id = '' + a + b;
+<SwipeitemView
     root={this}
     ref={(row)=>this._dataRow[id] = row}
     id={id}
