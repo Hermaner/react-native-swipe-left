@@ -1,6 +1,6 @@
 {
-  "name": "react-native-swipe-left",
-  "version": "0.1.2",
+  "name": "react-native-swipe-left-hm",
+  "version": "0.0.1",
   "description": "a RN swipe-left component for listView.(左滑解决方案)",
   "main": "index.js",
   "directories": {
@@ -11,7 +11,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/yzsolo/react-native-swipe-left.git"
+    "url": "https://github.com/Hermaner/react-native-swipe-left.git"
   },
   "author": "yzsolo125@gmail.com",
   "license": "MIT",
