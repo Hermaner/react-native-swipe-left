@@ -1,6 +1,11 @@
 # react-native-swipe-left
 a RN swipe-left component for listView.(左滑解决方案)
 
+### Installation
+```
+npm install --save react-native-swipe-left-hm
+```
+
 ### IOS && ANDROID
 IOS | Android
 -----|-------
@@ -19,10 +24,7 @@ pressable in single row |单个row内的按钮或链接可点击
 optional animation type, timing/spring |可选择滚动动画类型，timing/spring
 
 
-### Installation
-```
-npm install --save react-native-swipe-left-hm
-```
+
 
 ### Usage example
 see the example/example.js for a more detailed example.
